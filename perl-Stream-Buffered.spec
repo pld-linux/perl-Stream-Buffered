@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Stream
 %define		pnam	Buffered
+%include	/usr/lib/rpm/macros.perl
 Summary:	String::Buffered - temporary buffer to save bytes
 Name:		perl-Stream-Buffered
 Version:	0.02
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	63d7776365a4ffd22f15002e03781c01
+URL:		http://search.cpan.org/dist/Stream-Buffered/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
