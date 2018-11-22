@@ -7,13 +7,13 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	String::Buffered - temporary buffer to save bytes
 Name:		perl-Stream-Buffered
-Version:	0.02
+Version:	0.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	63d7776365a4ffd22f15002e03781c01
+# Source0-md5:	b030fecaa784cd573289ae797c7aeae9
 URL:		http://search.cpan.org/dist/Stream-Buffered/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
