@@ -4,7 +4,6 @@
 
 %define		pdir	Stream
 %define		pnam	Buffered
-%include	/usr/lib/rpm/macros.perl
 Summary:	String::Buffered - temporary buffer to save bytes
 Name:		perl-Stream-Buffered
 Version:	0.03
